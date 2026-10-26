@@ -1,0 +1,20 @@
+[project]
+name = "model-cascade-dr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "absl-py>=2.1.0",
+    "clu>=0.0.12",
+    "tensorflow-datasets>=4.9.7",
+    "torch>=2.2.2",
+    "torchvision>=0.17.2",
+    "mlcroissant>=1.0.12",
+    "torcheval>=0.0.7",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "tensorflow>=2.12.0",
+    "opencv-python-headless>=4.8.1.78",
+    "tensorboard>=2.20.0",
+]
